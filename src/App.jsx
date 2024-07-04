@@ -13,8 +13,9 @@ function App() {
 
   return (
     <div className="w-full max-w-2xl h-screen mx-auto p-4 flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold mb-4">Video Player with Seeking</h1>
-
+      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-3 md:mb-4 text-center">
+        Video Player with Seeking
+      </h1>
       <VideoComponent videoRef={videoRef} />
       <SeekComponent onSeek={handleSeek} />
     </div>
